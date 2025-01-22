@@ -8,7 +8,7 @@ export default {
 
 	plugins: [flowbitePlugin],
 
-	// darkMode: 'class',
+	darkMode: 'selector',
 
 	theme: {
 		extend: {

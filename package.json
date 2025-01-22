@@ -54,7 +54,8 @@
 		"gsap": "^3.12.5",
 		"katex": "^0.16.10",
 		"onnxruntime-web": "^1.18.0",
-		"svelte-katex": "^0.1.2"
+		"svelte-katex": "^0.1.2",
+		"transformer-explainer": "file:"
 	},
 	"engines": {
 		"node": ">=20.0.0",

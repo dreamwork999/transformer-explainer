@@ -22,7 +22,7 @@
 	<div class="slider-container flex w-full flex-col items-end">
 		<div class="flex w-full shrink-0 items-center justify-between">
 			<div class="temperature-text flex items-center gap-[2px]">
-				<div>Temperature</div>
+				<div class="dark:text-gray-200">Temperature</div>
 				<HelpPopover id="temperature-help" placement="right" goTo="article-prob">
 					{`Changes the output \nprobability distribution \nand randomness \nof next token.`}
 				</HelpPopover>

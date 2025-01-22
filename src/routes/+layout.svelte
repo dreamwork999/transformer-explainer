@@ -56,7 +56,7 @@
 	id="app"
 	style={`--min-screen-width:${minScreenWidth}px;--min-column-width:${minColumWidth}px;--predicted-color:${predictedColor};`}
 >
-	<div id="landing">
+	<div id="landing" class="dark:bg-gray-700">
 		<header bind:offsetHeight={topBarHeight} style="transform: translateX({-1 * scrollLeft}px);">
 			<Topbar isActive={tobBarActive} />
 		</header>
@@ -68,7 +68,7 @@
 			{/if}
 		</main>
 	</div>
-	<div class="article h-auto w-full">
+	<div class="article h-auto w-full dark:bg-gray-700 dark:text-gray-300">
 		<Article></Article>
 	</div>
 	<!-- <footer></footer> -->

@@ -132,7 +132,7 @@
 				type="button"
 				disabled={selectDisabled}
 				class:selectDisabled
-				class="select-button inline-flex shrink-0 items-center justify-center border border-s-0 border-gray-200 bg-white px-3 py-2 text-center text-xs font-medium text-gray-900 first:rounded-s-lg first:border-s last:rounded-e-lg"
+				class="select-button inline-flex shrink-0 items-center justify-center border border-s-0 border-gray-200 px-3 py-2 text-center text-xs font-medium first:rounded-s-lg first:border-s last:rounded-e-lg"
 			>
 				Examples<ChevronDownOutline class="pointer-events-none h-4 w-4 text-gray-500" />
 			</button>
@@ -246,7 +246,7 @@
 		align-items: center;
 
 		border: 1px solid theme('colors.gray.300');
-		color: theme('colors.gray.900');
+		color: theme('colors.gray.200');
 		border-left: none;
 		border-start-end-radius: 0.5rem;
 		border-end-end-radius: 0.5rem;
@@ -301,9 +301,9 @@
 		flex-shrink: 0;
 		font-size: 0.8rem;
 		border: 1px solid theme('colors.gray.300');
-		color: theme('colors.gray.900');
+		color: theme('colors.gray.200');
 		&:hover {
-			background-color: theme('colors.gray.100');
+			background-color: theme('colors.gray.900');
 		}
 		&:focus {
 			outline: none;
@@ -314,7 +314,7 @@
 	}
 	:global(.example-dropdown) {
 		:global(.active) {
-			background-color: theme('colors.gray.100') !important;
+			background-color: theme('colors.gray.900') !important;
 		}
 	}
 	.helper-text {

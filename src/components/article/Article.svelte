@@ -544,7 +544,7 @@
 	}
 
 	.bold-purple {
-		color: theme('colors.purple.700');
+		color: theme('colors.gray.200');
 		font-weight: bold;
 	}
 
@@ -601,7 +601,7 @@
 	}
 
 	#description h1 {
-		color: theme('colors.purple.700');
+		color: theme('colors.gray.200');
 		font-size: 2.2rem;
 		font-weight: 300;
 		padding-top: 1rem;
@@ -609,7 +609,7 @@
 
 	#description h2 {
 		// color: #444;
-		color: theme('colors.purple.700');
+		color: theme('colors.gray.200');
 		font-size: 2rem;
 		font-weight: 300;
 		padding-top: 1rem;
@@ -656,7 +656,7 @@
 	#description p,
 	#description div,
 	#description li {
-		color: theme('colors.gray.600');
+		// color: theme('colors.gray.600');
 		// font-size: 17px;
 		// font-size: 15px;
 		line-height: 1.6;
