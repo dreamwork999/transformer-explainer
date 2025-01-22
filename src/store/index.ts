@@ -2,7 +2,7 @@ import { writable, derived, readable } from 'svelte/store';
 import * as ort from 'onnxruntime-web';
 import tailwindConfig from '../../tailwind.config';
 import resolveConfig from 'tailwindcss/resolveConfig';
-import { ex0 } from '~/constants/examples';
+import { ex1 } from '~/constants/examples';
 import type { PreTrainedTokenizer } from '@xenova/transformers';
 
 const { theme } = resolveConfig(tailwindConfig);
@@ -15,8 +15,8 @@ export const isFetchingModel = writable(true);
 export const isLoaded = writable(false);
 
 export const inputTextExample = [
-	'Sam Altman like to suck big black',
 	'Artificial Intelligence is transforming the',
+	'Sam Altman like to suck big black',
 	'As the spaceship was approaching the',
 	'On the deserted planet they discovered a',
 	'IEEE VIS conference highlights the'
@@ -27,10 +27,10 @@ export const selectedExampleIdx = writable<number>(0);
 export const modelSession = writable<ort.InferenceSession>();
 
 // transformer model output
-export const modelData = writable<ModelData>(ex0);
+export const modelData = writable<ModelData>(ex1);
 export const predictedToken = writable<PredictionItem>();
-export const tokens = writable<string[]>(ex0?.tokens);
-export const tokenIds = writable<number[]>(ex0?.tokenIds);
+export const tokens = writable<string[]>(ex1?.tokens);
+export const tokenIds = writable<number[]>(ex1?.tokenIds);
 
 export const modelMetaMap: Record<string, ModelMetaData> = {
 	gpt2: { layer_num: 12, attention_head_num: 12, dimension: 768, chunkTotal: 63 },
