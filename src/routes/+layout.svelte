@@ -53,7 +53,7 @@
 </script>
 
 <div
-	id="app"
+	id="app" class="bg-white"
 	style={`--min-screen-width:${minScreenWidth}px;--min-column-width:${minColumWidth}px;--predicted-color:${predictedColor};`}
 >
 	<div id="landing">
@@ -68,7 +68,7 @@
 			{/if}
 		</main>
 	</div>
-	<div class="article h-auto w-full">
+	<div class="article h-auto w-full bg-white">
 		<Article></Article>
 	</div>
 	<!-- <footer></footer> -->

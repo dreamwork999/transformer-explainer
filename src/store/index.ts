@@ -92,6 +92,7 @@ export const hoveredMatrixCell = writable({ row: null, col: null });
 export const isMobile = readable(detectDevice());
 
 function detectDevice() {
+	return;
 	const userAgent = navigator.userAgent.toLowerCase();
 	return /android|iphone|ipad|ipod/i.test(userAgent);
 }
