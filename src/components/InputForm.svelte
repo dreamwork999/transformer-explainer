@@ -329,7 +329,7 @@
 	:global(.generate-button) {
 		padding: 0.4rem 0.8rem;
 		border: 1px solid theme('colors.gray.300');
-		color: theme('colors.gray.900');
+		color: theme('colors.gray.200');
 		transition: all 0.2s;
 		flex-shrink: 0;
 	}
