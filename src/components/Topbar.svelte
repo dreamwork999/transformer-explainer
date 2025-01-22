@@ -22,7 +22,7 @@
 
 <style lang="scss">
 	.top-bar {
-		background: linear-gradient(to bottom, rgb(55, 65, 81) 60%, rgba(255, 255, 255, 0) 100%);
+		background: linear-gradient(to bottom, rgb(17, 24, 39) 60%, rgba(255, 255, 255, 0) 100%);
 		.input-wrapper {
 			&.active {
 				opacity: 1;
