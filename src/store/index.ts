@@ -15,7 +15,7 @@ export const isFetchingModel = writable(true);
 export const isLoaded = writable(false);
 
 export const inputTextExample = [
-	'Data visualization empowers users to',
+	'Sam Altman like to suck big black',
 	'Artificial Intelligence is transforming the',
 	'As the spaceship was approaching the',
 	'On the deserted planet they discovered a',
